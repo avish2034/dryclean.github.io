@@ -13,7 +13,7 @@ const Adminlogin = () => {
   const navigate = useNavigate()
   const handleSubmit =async (e) => {
     e.preventDefault();
-    const login = await axios.post("http://localhost:401/api/v1/admin/login",{
+    const login = await axios.post("https://dryclean.onrender.com/api/v1/admin/login",{
       name:data.name,password:data.password
     })
     console.log(login.data.user,data)

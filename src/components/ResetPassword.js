@@ -10,7 +10,7 @@ const ResetPassword = () => {
   const reset= async(req,res,e)=>{
       if(Cookies.get("id")){
         const update = await axios.put(
-          `http://localhost:401/api/v1/user/reset-password/${Cookies.get("id")}`,
+          `https://dryclean.onrender.com/api/v1/user/reset-password/${Cookies.get("id")}`,
             {oldPassword:data.password,newPassword:data.repassword});
         if(update.data.success){
           toast.success("Password Reset Successfully")

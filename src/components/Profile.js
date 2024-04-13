@@ -10,7 +10,7 @@ const Profile = () => {
   const getDetail = async (req, res) => {
     if (Cookies.get("id")) {
       const user = await axios.get(
-        `http://localhost:401/api/v1/user/detail/${Cookies.get("id")}`
+        `https://dryclean.onrender.com/api/v1/user/detail/${Cookies.get("id")}`
       );
       console.log(Cookies.get("userId"));
       if (user.data.success) {
@@ -24,7 +24,7 @@ const Profile = () => {
   }
   const logout = async(req,res)=>{
     if(Cookies.get("id")){
-        const logoutUser= await axios.get("http://localhost:401/api/v1/user/logout")
+        const logoutUser= await axios.get("https://dryclean.onrender.com/api/v1/user/logout")
         if(logoutUser.data.success){
             toast.success("User Logout Successfull")
             Cookies.remove('id')
@@ -37,7 +37,7 @@ const Profile = () => {
   const updateUser=async(e)=>{
     if (Cookies.get("id")) {
         const update = await axios.put(
-          `http://localhost:401/api/v1/user/update/${Cookies.get("id")}`,
+          `https://dryclean.onrender.com/api/v1/user/update/${Cookies.get("id")}`,
             {name:user.name,mobile:user.mobile,address:user.address,landmark:user.landmark,pincode:user.pincode,city:user.city,state:user.state}
           
         );

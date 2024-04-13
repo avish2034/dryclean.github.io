@@ -15,7 +15,7 @@ const ShowOrder = () => {
   const getDetail = async (req, res) => {
     if (Cookies.get("id")) {
       const user = await axios.get(
-        `http://localhost:401/api/v1/user/detail/${Cookies.get("id")}`
+        `https://dryclean.onrender.com/api/v1/user/detail/${Cookies.get("id")}`
       );
       console.log(Cookies.get("userId"));
       if (user.data.success) {
@@ -27,7 +27,7 @@ const ShowOrder = () => {
   const navigate = useNavigate();
   const singleOrder = async () => {
     const Order = await axios.get(
-      `http://localhost:401/api/v1/order/${localStorage.getItem("orderID")}`
+      `https://dryclean.onrender.com/api/v1/order/${localStorage.getItem("orderID")}`
     );
     if (Order.data.success) {
       setOrder(Order.data.data);

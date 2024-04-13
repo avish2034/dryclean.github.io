@@ -16,7 +16,7 @@ const Order = () => {
       return;
     }
     const orders = await axios.get(
-      `http://localhost:401/api/v1/order/user/${Cookies.get("id")}`
+      `https://dryclean.onrender.com/api/v1/order/user/${Cookies.get("id")}`
     );
     if (orders.data.success) {
       setorder(orders.data.data);
@@ -45,7 +45,7 @@ const Order = () => {
         return;
       }
       const orders = await axios.get(
-        `http://localhost:401/api/v1/order/user/${orderid}/${Cookies.get("id")}`
+        `https://dryclean.onrender.com/api/v1/order/user/${orderid}/${Cookies.get("id")}`
       );
       if (orders.data.success) {
         setorder(orders.data.data);
@@ -72,7 +72,7 @@ const Order = () => {
       return;
     }
     const orders = await axios.get(
-      `http://localhost:401/api/v1/order/user/date/${date}/${Cookies.get("id")}`
+      `https://dryclean.onrender.com/api/v1/order/user/date/${date}/${Cookies.get("id")}`
     );
     if (orders.data.success) {
       setorder(orders.data.data);

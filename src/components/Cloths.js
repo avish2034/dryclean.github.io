@@ -17,7 +17,7 @@ const Cloths = () => {
       return;
     }
     const cloth = await axios.get(
-      `http://localhost:401/api/v1/cloth/getCloths/${localStorage.getItem(
+      `https://dryclean.onrender.com/api/v1/cloth/getCloths/${localStorage.getItem(
         "category"
       )}`
     );

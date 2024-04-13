@@ -7,7 +7,7 @@ const ServiceComp = (props) => {
   const navigate = useNavigate()
   const getAllCategories = async (req, res) => {
     const category = await axios.get(
-      "http://localhost:401/api/v1/category/get-all"
+      "https://dryclean.onrender.com/api/v1/category/get-all"
     );
     if (category.data.success) {
       setcategories(category.data.categories);

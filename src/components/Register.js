@@ -29,7 +29,7 @@ const Register = () => {
       return;
     }
     const register = await axios.post(
-      "http://localhost:401/api/v1/user/register",
+      "https://dryclean.onrender.com/api/v1/user/register",
       {
         email: data.email,
         password: data.password,

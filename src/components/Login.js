@@ -21,7 +21,7 @@ const Login = () => {
       toast.warn("Password Must have 8 letter")
       return;
     }
-    const login = await axios.post("http://localhost:401/api/v1/user/login",{
+    const login = await axios.post("https://dryclean.onrender.com/api/v1/user/login",{
       email:data.email,password:data.password
     })
     console.log(login.data.user,data)

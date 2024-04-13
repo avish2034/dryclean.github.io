@@ -7,7 +7,7 @@ export const Navigation = (props) => {
   const [user, setuser] = useState({})
   const getDetail = async (req,res)=>{
     if(Cookies.get("id")){
-      const user = await axios.get(`http://localhost:401/api/v1/user/detail/${Cookies.get("id")}`)
+      const user = await axios.get(`https://dryclean.onrender.com/api/v1/user/detail/${Cookies.get("id")}`)
       console.log(Cookies.get("id"));
       if(user.data.success){
         setuser(user.data.user)

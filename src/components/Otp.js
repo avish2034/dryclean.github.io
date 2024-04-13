@@ -10,7 +10,7 @@ const Otp = () => {
     const sendOtp = async(e)=>{
         if(otp.otp == localStorage.getItem("otp")){
         e.preventDefault();
-        const sendotp = axios.post("http://localhost:401/api/v1/user/verification",{
+        const sendotp = axios.post("https://dryclean.onrender.com/api/v1/user/verification",{
             otp:otp.otp,
             id:Cookies.get("id")
         })

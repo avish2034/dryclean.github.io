@@ -16,7 +16,7 @@ const Items = () => {
       return;
     }
     const cloth = await axios.get(
-      `http://localhost:401/api/v1/item/getItems/${localStorage.getItem(
+      `https://dryclean.onrender.com/api/v1/item/getItems/${localStorage.getItem(
         "cloth"
       )}`
     );
@@ -35,7 +35,7 @@ const Items = () => {
     e.preventDefault();
     console.log(id);
     console.log(Cookies.get('id'));
-    const addCart = await axios.post(`http://localhost:401/api/v1/cart/add/${id}`,{
+    const addCart = await axios.post(`https://dryclean.onrender.com/api/v1/cart/add/${id}`,{
       id:Cookies.get('id')
     })
     if(addCart.data.success){

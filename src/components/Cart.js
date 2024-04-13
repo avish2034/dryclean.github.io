@@ -13,7 +13,7 @@ const Cart = () => {
   const [user, setuser] = useState({})
   const getDetail = async (req,res)=>{
     if(Cookies.get("id")){
-      const user = await axios.get(`http://localhost:401/api/v1/user/detail/${Cookies.get("id")}`)
+      const user = await axios.get(`https://dryclean.onrender.com/api/v1/user/detail/${Cookies.get("id")}`)
       console.log(Cookies.get("id"));
       if(user.data.success){
         setuser(user.data.user)
@@ -28,7 +28,7 @@ const Cart = () => {
     }
     const id = Cookies.get("id");
     const cartItem = await axios.get(
-      `http://localhost:401/api/v1/cart/get/${id}`
+      `https://dryclean.onrender.com/api/v1/cart/get/${id}`
     );
     if (cartItem.data.success) {
       setdata(cartItem.data.cartItems);
@@ -43,7 +43,7 @@ const Cart = () => {
     }
     const id = Cookies.get("id");
     const cartItem = await axios.get(
-      `http://localhost:401/api/v1/cart/sumOfprice/${id}`
+      `https://dryclean.onrender.com/api/v1/cart/sumOfprice/${id}`
     );
     console.log(cartItem);
     if (cartItem.data.success) {
@@ -61,7 +61,7 @@ const Cart = () => {
       toast.warn('User unauthorized');
       return;
     }
-    const order = await axios.post("http://localhost:401/api/v1/order/add",{
+    const order = await axios.post("https://dryclean.onrender.com/api/v1/order/add",{
       userId:Cookies.get('id')
     })
     // var orderid='';
@@ -71,11 +71,11 @@ const Cart = () => {
       toast.error(order.data.message)
       return;
     }
-    const checkout = await axios.post(`http://localhost:401/api/v1/checkout`, {
+    const checkout = await axios.post(`https://dryclean.onrender.com/api/v1/checkout`, {
       amount,
     });
     console.log(checkout.data);
-    const getId = await axios.get("http://localhost:401/api/v1/getkey");
+    const getId = await axios.get("https://dryclean.onrender.com/api/v1/getkey");
     console.log(getId);
     var options = {
       key: getId.key, // Enter the Key ID generated from the Dashboard
@@ -85,7 +85,7 @@ const Cart = () => {
       description: "Payment Of order",
       image:"./logo.png",
       order_id: checkout.data.order.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
-      callback_url: `http://localhost:401/api/v1/paymentverification/${order.data.orderid}`,
+      callback_url: `https://dryclean.onrender.com/api/v1/paymentverification/${order.data.orderid}`,
       prefill: {
         name: user.name,
         email: user.email,
