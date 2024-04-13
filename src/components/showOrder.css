@@ -1,0 +1,126 @@
+.billPage{
+    overflow: hidden;
+height: 100%;
+overflow-y: auto;
+}
+.bill {
+    width: 35%;
+    margin: 0px auto;
+    box-shadow: 2px 2px 12px 6px #0000003d;
+    padding:14px;
+    margin-top:100px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+}
+.bill img{
+    width: 30%;
+}
+.bill-nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2vh;
+}
+.bill hr{
+    width: 100%;
+    margin: 10px auto;
+    background: lightgrey;
+    height: 1px;
+
+}
+.bill h5{
+    color:black;
+    margin-top:1vh;
+
+}
+.bill h5 span{
+    color:gray
+}
+.bill .user .em{
+    margin-top:.8vh;
+
+    display: flex;
+    justify-content: space-between;
+}
+.bill .user span{
+    text-transform: lowercase;
+    font-size:16px ;
+}
+
+.bill table{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    height: 25vh;
+}
+ .bill table thead{
+    background-color: rgba(23, 23, 23, 0.684);
+    color:white;
+    height: 30px;
+
+ }
+ th{
+    text-align: center;
+ }
+.bill table thead th {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+.bill table tbody tr{
+    background-color: white;
+    color:rgba(70, 70, 70, 0.968);
+    height: 30px;
+
+ }
+.bill table thead th {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+
+.bill .subTotal{
+    text-align: end;
+}
+.bill .subTotal h4 {
+    color: black;
+}
+.bill .subTotal h4 span{
+    color:gray
+}
+.bill .subTotal h3 {
+    color: black;
+    font-size: 29px;
+
+}
+.bill .subTotal h3 span{
+    color:gray;
+    font-size: 26px;
+
+}
+
+#legalcopy{
+    margin-top: 5mm;
+  }
+
+ #legalcopy p{
+    font-size: 16px;
+    color: #666;
+    line-height: 1em;
+  }
+
+ .billpage  button{
+    padding: 6px 22px;
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+    background: #107710cc;
+    border: 0px;
+    border-radius: 5px;
+    margin-left: 45%;
+    margin-top: 1%;
+    font-size: 17px;
+  }
+   

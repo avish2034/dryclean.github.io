@@ -1,0 +1,180 @@
+{
+  "Header": {
+    "title": "DryClean ",
+    "paragraph": "72-Hour Turnaround. Economical Prices. Doorstep Service. Avail the best laundry and dry cleaning services from your home."
+  },
+  "About": {
+    "paragraph": "We understand your hygiene needs and don’t worry, we’ve got it covered. We do not mix any of your clothes or laundry with those of others. Your wash your load. You would not want your clothes to be washed with your neighbor’s father’s nephew, would you, eh?We are here to help you in your eternal quest for work-life balance. So stop wasting your time doing dirty laundry, instead do something that makes you happy – build your business, or dance in the kitchen with your partner or maybe, just roll down a hill with your kids.We are your one stop solution for your clothes, you just have to ask. Well, what can we say; we like to spoil our customers.",
+    "Why": [
+      "Professional workers",
+      "Quick results",
+      "Pickup and delivery service",
+      "Affordable laundry service"
+    ],
+    "Why2": [
+      "Available for 24 hours a day",
+      "Experienced company",
+      "We only use safe detergents",
+      "We use safe washing machines"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "DryClean",
+      "largeImage": "img/portfolio/one.jpg",
+      "smallImage": "img/portfolio/one.jpg"
+    },
+    {
+      "title": "DryClean",
+      "largeImage": "img/portfolio/two.jpg",
+      "smallImage": "img/portfolio/two.jpg"
+    },
+    {
+      "title": "DryClean",
+      "largeImage": "img/portfolio/thires.jpg",
+      "smallImage": "img/portfolio/thires.jpg"
+    },
+    {
+      "title": "DryClean",
+      "largeImage": "img/portfolio/four.jpg",
+      "smallImage": "img/portfolio/four.jpg"
+    },
+    {
+      "title": "DryClean",
+      "largeImage": "img/portfolio/five.jpg",
+      "smallImage": "img/portfolio/five.jpg"
+    },
+    {
+      "title": "DryClean",
+      "largeImage": "img/portfolio/six.jpg",
+      "smallImage": "img/portfolio/six.jpg"
+    },
+    {
+      "title": "DryClean",
+      "largeImage": "img/portfolio/seven.jpg",
+      "smallImage": "img/portfolio/seven.jpg"
+    },
+    {
+      "title": "DryClean",
+      "largeImage": "img/portfolio/eight.jpg",
+      "smallImage": "img/portfolio/eight.jpg"
+    },
+    {
+      "title": "DryClean",
+      "largeImage": "img/portfolio/nine.jpg",
+      "smallImage": "img/portfolio/nine.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/avish.jpeg",
+      "name": "Avishkumar Shiroya",
+      "job": "Student"
+    },
+    {
+      "img": "img/team/DD.jpg",
+      "name": "Dhruvin Sojitra",
+      "job": "Student"
+    },
+    {
+      "img": "img/team/femis.jpeg",
+      "name": "Femis Shingala",
+      "job": "Student"
+    }
+    
+  ],
+  "Contact": {
+    "address": "DryClean Imperial , Vesu , Surat - 395007 .",
+    "phone": "+1 123 456 1234",
+    "email": "info@dryClean.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "24 X 7 Help",
+      "text": "I'm on my phone 24-7.I see everything. I hear everything.I am the voice of the DryClean."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Announcement",
+      "text": "Our courier service is only for a period of 14 hours from 8 AM to 9 PM."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Community",
+      "text": "If I don't do laundry today, I'm gonna have to buy new clothes tomorrow."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Satisfaction",
+      "text": "It's better to have loved and lost than to have to do forty pounds of laundry a week."
+    }
+  ]
+}
