@@ -18,13 +18,13 @@ const updateCart = async(e,id)=>{
       return;
     }
     e.preventDefault();
-    const update = await axios.put(`https://dryclean.onrender.com//api/v1/cart/update/${id}`,{
+    const update = await axios.put(`https://dryclean.onrender.com/api/v1/cart/update/${id}`,{
         quantity:cart.quantity,
         _id:Cookies.get('id')
     })
     if(update.data.success){
         toast.success("Cart Updated")
-        navigate(0)
+        navigate("/cart")
     }
     else{
         toast.error(update.data.message)
@@ -36,10 +36,10 @@ const deleteCart = async(e,id)=>{
         return;
     }
     e.preventDefault();
-    const update = await axios.delete(`https://dryclean.onrender.com//api/v1/cart/delete/${id}/${Cookies.get('id')}`)
+    const update = await axios.delete(`https://dryclean.onrender.com/api/v1/cart/delete/${id}/${Cookies.get('id')}`)
     if(update.data.success){
         toast.success(update.data.message)
-        navigate(0)
+        navigate("/cart")
     }
     else{
         toast.error(update.data.message)
